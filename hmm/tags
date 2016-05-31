@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+A	/Users/dingnan/space/hmm/hmm.py	/^    A = [[random.random() for y in range(4)] for x in range(4)]   #状态转移矩阵$/;"	v
+B	/Users/dingnan/space/hmm/hmm.py	/^    B = [[random.random() for y in range(65536)] for x in range(4)]  #观察矩阵$/;"	v
+baum_welch	/Users/dingnan/space/hmm/./hmm.py	/^def baum_welch(pi, A, B):$/;"	f
+baum_welch	/Users/dingnan/space/hmm/hmm.py	/^def baum_welch(pi, A, B):$/;"	f
+bw	/Users/dingnan/space/hmm/hmm.py	/^def bw(pi, A, B, alpha, beta, gamma, ksi, o):$/;"	f
+calc_alpha	/Users/dingnan/space/hmm/hmm.py	/^def calc_alpha(pi, A, B, o, alpha):$/;"	f
+calc_beta	/Users/dingnan/space/hmm/hmm.py	/^def calc_beta(pi, A, B, o, beta):$/;"	f
+calc_gamma	/Users/dingnan/space/hmm/hmm.py	/^def calc_gamma(alpha, beta, gamma):$/;"	f
+calc_ksi	/Users/dingnan/space/hmm/hmm.py	/^def calc_ksi(alpha, beta, A, B, o, ksi):$/;"	f
+os	/Users/dingnan/space/hmm/./hmm.py	/^import os$/;"	i
+os	/Users/dingnan/space/hmm/hmm.py	/^import os$/;"	i
+pi	/Users/dingnan/space/hmm/hmm.py	/^    pi = [random.random() for x in range(4)]  #初始分布$/;"	v
+pi	/Users/dingnan/space/hmm/hmm.py	/^    pi = [random.random]$/;"	v
+random	/Users/dingnan/space/hmm/hmm.py	/^import random$/;"	i
+segment	/Users/dingnan/space/hmm/hmm.py	/^def segment(sentence, decode):$/;"	f
+viterbi	/Users/dingnan/space/hmm/hmm.py	/^def viterbi(pi, A, B, o):$/;"	f
